@@ -1,0 +1,30 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+GetBase64Value	decode.c	/^char GetBase64Value(char ch) \/\/得到编码值$/;"	f
+base64_decode	decode.c	/^int base64_decode( char *gb2312string, char *base64string, int base64_len, int force )  \/\/解码函数$/;"	f
+base64_encode	decode.c	/^int base64_encode( char *gb2312string, char *base64string, int gb2312stringlen ) $/;"	f
+check_mail	smtp_process.c	/^int check_mail(char *mail, char *maillist[],int n)$/;"	f
+del_semvalue	semopt.c	/^void del_semvalue(int sem_id){$/;"	f
+do_client	smtp_process.c	/^int do_client(char *buf,int buflen,int serverfd,struct ctrl_flag *ctrlflag)$/;"	f
+do_iptables_dnat	smtp_process.c	/^int do_iptables_dnat(char *ipaddr, int port)$/;"	f
+do_log	semopt.c	/^int do_log(char *buf, int buflen, char *log_dir){$/;"	f
+do_server	smtp_process.c	/^int do_server(int clientfd, int serverfd, struct ctrl_flag *ctrlflag)$/;"	f
+do_smtp	smtp_standalone.c	/^void do_smtp(int client_sockfd)$/;"	f
+gb2312_to_utf8	decode.c	/^int gb2312_to_utf8(unsigned char *gb2312string, int gb2312string_len, unsigned char *utf8string)$/;"	f
+get_detail_buf	smtp_process.c	/^void get_detail_buf(struct smtp_buf *smtpbuf,char *buf, int buflen){$/;"	f
+get_mail_body	smtp_process.c	/^int get_mail_body(char *buf, int bufsize, unsigned char *body){$/;"	f
+get_mail_detail	smtp_process.c	/^void get_mail_detail(char *buf, char *detail){$/;"	f
+get_wanip	smtp_process.c	/^int get_wanip(char *wanip)$/;"	f
+get_whitemail	smtp_process.c	/^int get_whitemail(char *ptr[],int *n)$/;"	f
+is_bigendian	decode.c	/^int is_bigendian(){$/;"	f
+main	main.c	/^int main(void)$/;"	f
+max	smtp_process.c	/^int max (int a,int b)$/;"	f
+parase_mail	smtp_process.c	/^int parase_mail(char *buf, char *mail)$/;"	f
+semaphore_p	semopt.c	/^int semaphore_p(int sem_id){$/;"	f
+semaphore_v	semopt.c	/^int semaphore_v(int sem_id){$/;"	f
+set_semvalue	semopt.c	/^int set_semvalue(int sem_id){$/;"	f
+sig_chld	smtp_process.c	/^void sig_chld(int signo)$/;"	f
